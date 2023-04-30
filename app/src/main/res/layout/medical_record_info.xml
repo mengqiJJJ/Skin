@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <data />
+
+    <ScrollView
+        android:id="@+id/sc_global"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_project_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/iv_project_icon"
+                app:layout_constraintBottom_toTopOf="@+id/guideline"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.533"
+                app:srcCompat="@mipmap/medical_info" />
+
+            <TextView
+                android:id="@+id/tv_SAS_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SAS_SDS_desc"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/iv_project_icon2"
+                android:layout_width="290dp"
+                android:layout_height="140dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.533"
+                app:srcCompat="@mipmap/base_info_pictu" />
+
+            <TextView
+                android:id="@+id/tv_culture"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="@string/tv_culture"
+                android:textSize="20sp"
+                />
+
+            <Spinner
+                android:id="@+id/et_culture"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/culture_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_profession"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_profession"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_profession"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/profession_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_smoke"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_smoke"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_smoke"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/smoke_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_wine"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_wine"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_wine"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/wine_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_height"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_height"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/et_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/et_height"
+                android:inputType="number"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_height"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tv_height"
+                app:layout_constraintVertical_bias="0.384"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_F"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_F"
+                android:textSize="20sp" />
+
+
+
+            <Spinner
+                android:id="@+id/et_F"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/F_selected"
+                tools:targetApi="o" />
+
+            <ImageView
+                android:id="@+id/iv_project_icon3"
+                android:layout_width="match_parent"
+                android:layout_height="168dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.533"
+                app:srcCompat="@mipmap/fitzpatrick" />
+
+            <ImageView
+                android:id="@+id/iv_project_icon4"
+                android:layout_width="290dp"
+                android:layout_height="140dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.533"
+                app:srcCompat="@mipmap/clinical_info" />
+
+            <TextView
+                android:id="@+id/tv_date_one"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_date_one"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_year"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/list_year"
+                tools:targetApi="o" />
+
+            <Spinner
+                android:id="@+id/et_month"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/list_month"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_ill_time"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_ill_time"
+                android:textSize="20sp" />
+            <Spinner
+                android:id="@+id/et_year1"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/list_year"
+                tools:targetApi="o" />
+
+            <Spinner
+                android:id="@+id/et_month1"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/list_month"
+                tools:targetApi="o" />
+
+
+            <TextView
+                android:id="@+id/tv_now_white_place"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/now_white_place"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_now_white_place"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/now_white_place_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_niian_mo"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_niian_mo"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_niian_mo"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/niian_mo_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_hair_white"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_hair_white"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_hair_white"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/hair_white_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_distribution"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_distribution"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_distribution"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/distribution_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_white_ill"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_white_ill"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_white_ill"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/white_ill_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_season_ill"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_season_ill"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_season_ill"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/season_ill_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_physics"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_physics"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_physics"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/physics_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_chemistry"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_chemistry"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_chemistry"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/chemistry_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_infect"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_infect"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_infect"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/infect_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_spirit"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_spirit"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_spirit"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/spirit_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_drugs"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_drugs"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_drugs"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/drugs_selected"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/tv_pregnancy"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_pregnancy"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_pregnancy"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/pregnancy_selected"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/tv_food"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_food"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_food"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/food_selected"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/tv_concomitant"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_concomitant"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_concomitant"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/concomitant_selected"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/tv_family"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_family"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_family"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/family_selected"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/tv_myself_family"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_myself_family"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_myself_family"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/myself_family_selected"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/tv_covid"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_covid"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_covid"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/covid_selected"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/tv_covid_infect"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_covid_infect"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_covid_infect"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/covid_infect_selected"
+                tools:targetApi="o" />
+            <TextView
+                android:id="@+id/tv_before"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/tv_before"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_before"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/before_selected"
+                tools:targetApi="o" />
+
+
+            <Button
+                android:id="@+id/bt_submit_medical_info"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="32dp"
+                android:text="@string/bt_save_scale_result" />
+        </LinearLayout>
+
+
+    </ScrollView>
+</layout>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <data />
+
+    <ScrollView
+        android:id="@+id/sc_global"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_project_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/iv_project_icon"
+                app:layout_constraintBottom_toTopOf="@+id/guideline"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.533"
+                app:srcCompat="@mipmap/sds" />
+            <TextView
+                android:id="@+id/tv_SAS_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SAS_SDS_desc"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/tv_SDS_1"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_1"
+                android:textSize="20sp"
+
+                />
+
+            <Spinner
+                android:id="@+id/et_SDS_1"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_2"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_2"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_2"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_3"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_3"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_3"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_4"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_4"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_4"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_5"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_5"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_5"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_6"
+                android:layout_width="397dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_6"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_6"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_7"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_7"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_7"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_8"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_8"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_8"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_9"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_9"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_9"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_10"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_10"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_10"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_11"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_11"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_11"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_12"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_12"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_12"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_13"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_13"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_13"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_14"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_14"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_14"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_15"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_15"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_15"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_16"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_16"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_16"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_17"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_17"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_17"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_18"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_18"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_18"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_19"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_19"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_19"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/tv_SDS_20"
+                android:layout_width="346dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/SDS_20"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/et_SDS_20"
+                android:layout_width="242dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="12dp"
+                android:autofillHints=""
+                android:entries="@array/scale_selected"
+                tools:targetApi="o" />
+
+            <Button
+                android:id="@+id/bt_submit_SDS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="32dp"
+                android:text="@string/bt_submit_scale" />
+        </LinearLayout>
+
+
+    </ScrollView>
+</layout>
